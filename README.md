@@ -17,9 +17,9 @@
 
 # people_paper_2018-2019
 
-
 > 预处理后的人民日报数据集（2018-2019）  
 > 下载地址：
+>
 > 1. 处理后的数据集：[百度网盘1](https://pan.baidu.com/s/1qGei8MexfJfodQEutUtuIw)
 > 2. 未处理的数据集：[百度网盘2](https://pan.baidu.com/s/142aXMXFK2HkkqyHbf430-w)
 
@@ -35,3 +35,10 @@
 - 保留了部分无关任务的中文标点，不当做标点，将其当作文本的一部分
 
 > 具体的标点处理方案：[punc.md](./punc.md)
+
+## 3. 文件功能说明
+
+- RMRB.ipynb: 数据爬取
+- pre_proc_RRMRB.ipynb: 整合爬取到的单独文件
+- TextProc.ipynb: 处理文本的各种符号问题
+- traverse_dir: 遍历文件夹文件测试
